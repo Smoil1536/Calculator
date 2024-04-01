@@ -11,16 +11,11 @@ function Action(text){
         // That's what this part is for
         if(input_text.innerHTML[index] === ".")
             IsDotPressed = false;
-        else if(input_text.innerHTML[index] === " " && previousDot === true)
+        else if(input_text.innerHTML[index] === " ")
         {
             input_text.innerHTML = input_text.innerHTML.substring(0, index-2);
-            IsDotPressed = true;
-        }else if(input_text.innerHTML[index] === " " && previousDot === false)
-        {
-            input_text.innerHTML = input_text.innerHTML.substring(0, index-2);
-            IsDotPressed = false;
+            IsDotPressed = previousDot;
         }
-
         // Clearing last character
         input_text.innerHTML = input_text.innerHTML.substring(0, index);
         Calculate(input_text.innerHTML);
