@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 1px;
+    background-color: #68256e;
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    padding: 30rem;
+    gap: 30rem;
+    background-color: #7b3689;
+    border-radius: 6px;
+}
+.input
+{
+    padding: 10rem;
+    border: 2rem solid #d95ff1;
+    background-color: #d95ff1;
+    border-radius: 6rem;
+}
+
+.buttons-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #edbbf7;
+    gap: 19rem;
+    padding: 19rem;
+    border-radius: 6rem;
+}
+
+.buttonrows{
+    display: flex;
+    flex-direction: row;
+    gap: 19rem;
+}
+button{
+    border-radius: 5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22rem;
+    border: none;
+}
+.square-button{
+    width: 64rem;
+    height: 38rem;
+}
+.rectangle-buttons{
+    height: 38rem;
+    width: 147rem;
+}
+.color2{
+    background-color: #e390f4;
+}
+.color3{
+    background-color: #d95ff1;
+}
+.color4{
+    background-color: #9d08be;
+}
+
+.prompt{
+    color: #0ff74d;
+    font-size: 20rem;
+    height: 30rem;
+    font-family: sans-serif;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+.prompt2{
+    color: #54695a;
+    font-size: 15rem;
+    height: 15rem;
+    font-family: sans-serif;
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 1rem;
+}
+.equal{
+    font-size: 19rem;
+    font-weight: bolder;
+    color:#68256e;
+}
+hr{
+    border: 1rem solid black;
+}
