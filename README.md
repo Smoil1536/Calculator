@@ -5,4 +5,4 @@ The js code looks horrible ngl.
 # How to Use
 Install zip.  
 Extract it.  
-Click on html file.  
+Double click on the html file.  
